@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function User() {
     const [users, setUser] = useState([]);
     useEffect(() => {
-        axios.get("http://localhost:8003/getuser")
+        axios.get("https://to-do-mern-stack-c7mi.onrender.com/getuser")
             .then(result => {
                 console.log(result.data);
                 setUser(result.data);
@@ -14,7 +14,7 @@ function User() {
     }, []);
 
     function deleteUser(id) {
-        axios.delete(`http://localhost:8003/delete/${id}`)
+        axios.delete(`https://to-do-mern-stack-c7mi.onrender.com/delete/${id}`)
             .then(() => {
                 setUser(users.filter(user => user._id !== id));
             })

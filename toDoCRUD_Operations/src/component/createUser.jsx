@@ -13,7 +13,7 @@ function CreateUser() {
         e.preventDefault();
 
         axios
-            .post("http://localhost:8003/createUser", { name, email, age })
+            .post("https://to-do-mern-stack-c7mi.onrender.com/createUser", { name, email, age })
             .then((result) => {
                 console.log(result);
                 navigate("/");

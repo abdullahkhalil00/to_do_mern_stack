@@ -15,7 +15,7 @@ function UpdateUser() {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:8003/update/${id}`)
+            .get(`https://to-do-mern-stack-c7mi.onrender.com/update/${id}`)
             .then((result) => {
                 console.log(result.data);
                 setName(result.data.name)
@@ -32,7 +32,7 @@ function UpdateUser() {
         e.preventDefault();
 
         axios
-            .put(`http://localhost:8003/update/${id}`, {
+            .put(`https://to-do-mern-stack-c7mi.onrender.com/update/${id}`, {
                 name,
                 email,
                 age,
