@@ -153,3 +153,4 @@ https://github.com/abdullahkhalil00
 
 LinkedIn:
 Add your LinkedIn profile here.
+https://www.linkedin.com/in/abdullah-khalil4615/
