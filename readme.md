@@ -122,7 +122,7 @@ PORT=8003
 
 ```bash
 cd server
-npm start
+npm run dev
 ```
 
 ### Start frontend
@@ -132,17 +132,7 @@ cd toDoCRUD_Operations
 npm run dev
 ```
 
-## Screenshots
 
-You can add screenshots of:
-
-• Home Page
-
-• Create User
-
-• Update User
-
-• Mobile View
 
 ## Author
 
